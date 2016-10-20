@@ -1,1 +1,36 @@
-s is a test text file for my GitHub. Mike Lawrence
+I built this test text file using VIM editor in MinTTy cmd line tool. Code shown below in GitBash programme for GitHub.
+
+The three steps to build programmes and then put them onto here is:
+Add, Commit, Push.
+
+
+
+My code:
+
+m2law@MikesHP-321191 MINGW64 ~/desktop/t-sql (master)
+$ git add .
+warning: LF will be replaced by CRLF in testfile.txt.
+The file will have its original line endings in your working directory.
+
+m2law@MikesHP-321191 MINGW64 ~/desktop/t-sql (master)
+$ git commit -m "test for mike"
+[master (root-commit) 699999c] test for mike
+ 1 file changed, 1 insertion(+)
+ create mode 100644 testfile.txt
+
+m2law@MikesHP-321191 MINGW64 ~/desktop/t-sql (master)
+$ git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+nothing to commit, working tree clean
+
+m2law@MikesHP-321191 MINGW64 ~/desktop/t-sql (master)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 261 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/m2lawrence/T-SQL
+ * [new branch]      master -> master
